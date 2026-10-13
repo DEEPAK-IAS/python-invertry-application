@@ -1,0 +1,125 @@
+# ==============================
+# Python cache files
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# ==============================
+# Virtual environments
+# ==============================
+venv/
+venv*/
+.venv/
+venv8/
+ENV/
+env/
+.python-version
+
+# ==============================
+# Environment variables and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# IDE and editor settings
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==============================
+# Build and distribution files
+# ==============================
+build/
+dist/
+installer_output/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# PyInstaller
+*.manifest
+*.toc
+warn-*.txt
+xref-*.html
+
+# ==============================
+# Testing and coverage
+# ==============================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+nosetests.xml
+test-results/
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ==============================
+# Database files
+# ==============================
+# Uncomment these if databases contain only local/test data.
+# *.db
+# *.sqlite
+# *.sqlite3
+
+# ==============================
+# Local configuration
+# ==============================
+config.local.*
+settings.local.*
+
+# ==============================
+# Python packaging
+# ==============================
+.Python
+develop-eggs/
+parts/
+sdist/
+var/
+share/python-wheels/
+.installed.cfg
+
+# ==============================
+# Documentation build output
+# ==============================
+docs/_build/
+
+# ==============================
+# Generated application files
+# ==============================
+*.spec.bak
+*.dist
+*.build
+
+# ==============================
+# Keep source and project files tracked
+# ==============================
+# Do not ignore app/, assets/, scripts/, tests/, ui/,
+# main.py, requirements.txt, requirements-dev.txt,
+# README.md, stock_manager.spec, or installer.iss.

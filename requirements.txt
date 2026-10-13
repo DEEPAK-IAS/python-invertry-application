@@ -1,0 +1,11 @@
+PySide2
+SQLAlchemy
+greenlet==3.0.3
+pydantic
+loguru
+openpyxl
+reportlab
+alembic
+python-dotenv
+PyMuPDF
+qtawesome
